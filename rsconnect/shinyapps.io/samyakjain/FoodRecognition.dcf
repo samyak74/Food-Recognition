@@ -1,0 +1,12 @@
+name: FoodRecognition
+title: FoodRecognition
+username:
+account: samyakjain
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 330289
+bundleId: 1354267
+url: https://samyakjain.shinyapps.io/FoodRecognition/
+when: 1525373195.88541
+asMultiple: FALSE
+asStatic: FALSE

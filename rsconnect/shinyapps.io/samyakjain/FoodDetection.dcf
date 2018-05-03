@@ -1,0 +1,12 @@
+name: FoodDetection
+title: FoodDetection
+username:
+account: samyakjain
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 331387
+bundleId: 1341690
+url: https://samyakjain.shinyapps.io/FoodDetection/
+when: 1524778504.567
+asMultiple: FALSE
+asStatic: FALSE
