@@ -50,17 +50,30 @@ The accuracy obtained on training set is 86% and on the test set is 80%
 
 ## REFRENCES
 https://www.kaggle.com/kmader/food41/data
+
 https://www.researchgate.net/publication/310823982_FoodNon-food_Image_Classification_and_Food_Categorization_using_Pre-Trained_GoogLeNet_Model
+
 https://www.researchgate.net/publication/319070943_Mobile_Multi-Food_Recognition_Using_Deep_Learning
+
 https://www.researchgate.net/publication/319770183_Imagenet_classification_with_deep_convolutional_neural_networks 
+
 https://keras.rstudio.com
+
 https://ieeexplore.ieee.org/document/7550778/
+
 https://www.vision.ee.ethz.ch/datasets_extra/food-101/
+
 http://visiir.univ-lr.fr/images/publication/CEA_ICME2015.pdf
+
 https://www.jstatsoft.org/article/view/v015i09
+
 https://arxiv.org/ftp/arxiv/papers/0802/0802.2411.pdf
+
 https://ieeexplore.ieee.org/document/6123373/?reload=true
+
 https://medium.com/@Synced/deep-learning-based-food-calorie-estimation-method-in-dietary-assessment-1e76a2acee7
+
 https://shiny.rstudio.com
+
 https://www.researchgate.net/publication/311370165_Food_Image_Recognition_by_Using_Convolutional_Neural_Networks_CNNs
 
