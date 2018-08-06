@@ -1,31 +1,31 @@
 # Food-Recognition
 CNN based food recognition using Keras in Python and Shiny package in R.
 
-## ABSTRACT
+### ABSTRACT
 
 In this project , we made a food recognition and calorie estimation system that uses the images of the food, given by the user, to recognize food item and then estimates the calorie present in same food item. Food image recognition is one of the promising applications of visual object recognition in computer vision. 
 The system uses image processing and computational intelligence for food item recognition. 
 We trained a large, deep convolutional neural network to classify the 1000 high-resolution images of each category.
 
-## CONVOLUTIONAL NEURAL NETWORKS
+### CONVOLUTIONAL NEURAL NETWORKS
 
 The Convolutional Neural Network (CNN) oﬀers a technique for many general image classiﬁcation problems. It has been applied in food classiﬁcation and resulted in a high accuracy.CNN is widely used in food recognition and provides better performance than the conventional methods.
 Over the last few years, due to the advancements in the deep learning, especially in the convolutional neural networks, the accuracy in identifying and recognizing images has been increased drastically. This is not only because larger datasets but also new algorithms and improved deep architectures. Convolutional Neural Network (CNN) is also known as LeNet due to its inventor.CNN mainly comprises convolutional layers, pooling layers and sub-sampling layers followed by fully-connected layers. The very ﬁrst architecture of CNN takes an input image and applies convolution followed by sub-sampling. After two such computations, the data is fed into the fully connected neural network,where it performs the classiﬁcation task. The main advantage of CNN is the ability to learn the high-level eﬃcient features and in addition to that, it is robust against small rotations and shifts.
 
 
-## FOOD 101 DATASET
+##### FOOD 101 DATASET
 
 The dataset contains a number of different subsets of the full food-101 data. For this reason the data includes massively downscaled versions of the images to enable quick tests. The data has been reformatted as HDF5 and specifically Keras HDF5Matrix which allows them to be easily read in. The file names indicate the contents of the file.There are 101 categories represented, with 1000 images, and most have a resolution of around 512x512x3 (RGB, uint8).
 We have used 15 categories in our project. They are Apple Pie, Club Sandwich, Grilled Cheese Sandwich, Tacos, Hamburger, Samosa, French Fries, Pizza, Ravioli, Cake, Spring Rolls, donuts, waffles, sushi, nachos.
 
-## PACKAGES  USED
+### PACKAGES  USED
 
 (i) KERAS
 (ii) SHINY
 (iii) SHINYJS
 (iv)  DEVTOOLS
 
-## MODEL ARCHITECTURE
+### MODEL ARCHITECTURE
 
 The first layer is the Convolutional 2D layer which consists of 32 kernels of size 3x3 taking an input of size 100x100x3 where 100x100 is the rescaled size of our images and 3 denotes the color aspect (RGB) of the image.
 The next layer is the max pooling layer with a pool size of 2x2.
@@ -35,10 +35,19 @@ Two fully connected layers are used next with 128 and 90 neurons respectively an
 All the convolutional 2D layers and the fully connected layers have an activation function of ReLu (Rectified Linear Unit).
 The last layer is the output layer consisting of 15 neurons equivalent to the number of categories and each neuron has an output of a probability corresponding to that particular neuron. The CNN predicts the category to be the one with the highest probability.
 
-## RESULT
+### RESULT
 
 By the application of various machine learning algorithms (Support Vector Machines, K-Nearest Neighbour, Random Forest Classification) and deep learning algorithm(Convolutional Neural Networks) on the image classification problem, it is concluded that CNN is the most viable method for the image classification on our dataset in terms of both speed and accuracy and that CNN performs best in the cases of large datasets.
 The accuracy obtained on training set is 86% and on the test set is 80%
+
+### ScreenShots
+
+###### Before Uploading
+![alt text](https://github.com/samyak74/Food-Recognition/blob/master/Before%20Uploading.png)
+###### After Uploading
+![alt text](https://github.com/samyak74/Food-Recognition/blob/master/After%20uploading.png)
+###### Predict Image
+![alt text](https://github.com/samyak74/Food-Recognition/blob/master/Predict%20Image.png)
 
 
 ## FUTURE  WORK  SCOPE
