@@ -13,7 +13,7 @@ The Convolutional Neural Network (CNN) oﬀers a technique for many general imag
 Over the last few years, due to the advancements in the deep learning, especially in the convolutional neural networks, the accuracy in identifying and recognizing images has been increased drastically. This is not only because larger datasets but also new algorithms and improved deep architectures. Convolutional Neural Network (CNN) is also known as LeNet due to its inventor.CNN mainly comprises convolutional layers, pooling layers and sub-sampling layers followed by fully-connected layers. The very ﬁrst architecture of CNN takes an input image and applies convolution followed by sub-sampling. After two such computations, the data is fed into the fully connected neural network,where it performs the classiﬁcation task. The main advantage of CNN is the ability to learn the high-level eﬃcient features and in addition to that, it is robust against small rotations and shifts.
 
 
-##### FOOD 101 DATASET
+#### FOOD 101 DATASET
 
 The dataset contains a number of different subsets of the full food-101 data. For this reason the data includes massively downscaled versions of the images to enable quick tests. The data has been reformatted as HDF5 and specifically Keras HDF5Matrix which allows them to be easily read in. The file names indicate the contents of the file.There are 101 categories represented, with 1000 images, and most have a resolution of around 512x512x3 (RGB, uint8).
 We have used 15 categories in our project. They are Apple Pie, Club Sandwich, Grilled Cheese Sandwich, Tacos, Hamburger, Samosa, French Fries, Pizza, Ravioli, Cake, Spring Rolls, donuts, waffles, sushi, nachos.
@@ -40,24 +40,24 @@ The last layer is the output layer consisting of 15 neurons equivalent to the nu
 By the application of various machine learning algorithms (Support Vector Machines, K-Nearest Neighbour, Random Forest Classification) and deep learning algorithm(Convolutional Neural Networks) on the image classification problem, it is concluded that CNN is the most viable method for the image classification on our dataset in terms of both speed and accuracy and that CNN performs best in the cases of large datasets.
 The accuracy obtained on training set is 86% and on the test set is 80%
 
-### ScreenShots
+## ScreenShots
 
-###### Before Uploading
+#### Before Uploading
 ![alt text](https://github.com/samyak74/Food-Recognition/blob/master/Before%20Uploading.png)
-###### After Uploading
+#### After Uploading
 ![alt text](https://github.com/samyak74/Food-Recognition/blob/master/After%20uploading.png)
-###### Predict Image
+#### Predict Image
 ![alt text](https://github.com/samyak74/Food-Recognition/blob/master/Predict%20Image.png)
 
 
-## FUTURE  WORK  SCOPE
+### FUTURE  WORK  SCOPE
 
 (i) More categories can be added into the model and make the classifier predict on a wider variety of different food items.
 (ii) Can recognize multiple count food items in the same meal, such as hamburgers and cakes on the same dish, to estimate the calories of the meal in a more efficient manner.
 (iii) Can make the platform more custom based for different users, by learning from different users their preferred food categories and making suggestions for different restaurants or any eating place for the same.
 
 
-## REFRENCES
+### REFRENCES
 https://www.kaggle.com/kmader/food41/data
 
 https://www.researchgate.net/publication/310823982_FoodNon-food_Image_Classification_and_Food_Categorization_using_Pre-Trained_GoogLeNet_Model
