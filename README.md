@@ -57,7 +57,9 @@ The accuracy obtained on training set is 86% and on the test set is 80%
 ### FUTURE  WORK  SCOPE
 
 (i) More categories can be added into the model and make the classifier predict on a wider variety of different food items.
+
 (ii) Can recognize multiple count food items in the same meal, such as hamburgers and cakes on the same dish, to estimate the calories of the meal in a more efficient manner.
+
 (iii) Can make the platform more custom based for different users, by learning from different users their preferred food categories and making suggestions for different restaurants or any eating place for the same.
 
 
